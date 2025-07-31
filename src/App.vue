@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Navbar />
+    <NavBar />
     <Hero />
     <About />
     <Skills />
@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import Navbar from './components/Navbar.vue'
+import NavBar from './components/NavBar.vue'
 import Hero from './components/Hero.vue'
 import About from './components/About.vue'
 import Skills from './components/Skills.vue'
