@@ -111,7 +111,7 @@ export default {
       stats: [
         { id: 'projects', number: 20, suffix: '+', label: 'Projects Completed' },
         { id: 'clients', number: 5, suffix: '+', label: 'Happy Clients' },
-        { id: 'experience', number: this.yearsOfExperience, suffix: '+', label: 'Years Experience' },
+        { id: 'experience', number: 1, suffix: '+', label: 'Years Experience' },
         { id: 'technologies', number: 15, suffix: '+', label: 'Technologies' }
       ]
     }
