@@ -1,0 +1,37 @@
+{
+  "name": "emanportfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website built with Vue.js showcasing AI/ML projects and web development skills",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "vite preview --port 5000"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "sass": "^1.89.2",
+    "sass-embedded": "^1.89.2",
+    "vite": "^4.4.5"
+  },
+  "keywords": [
+    "vue",
+    "portfolio",
+    "ai",
+    "machine-learning",
+    "web-development",
+    "computer-science",
+    "responsive",
+    "scss"
+  ],
+  "author": "Eman Asad",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EmanAsad/portfolio"
+  }
+}
