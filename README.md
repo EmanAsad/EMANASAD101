@@ -7,4 +7,3 @@ Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://
 =======
 # EMANASAD101
 This is my portfolio in vue and scss
->>>>>>> 91e3d4abfb74747a2d5d050e7e91d569b263f93d
