@@ -8,6 +8,7 @@
           <p class="description fade-in">
             Passionate developer crafting modern web apps & intelligent solutions through the MERN stack & AI technologies.
           </p>
+          
           <div class="social-links fade-in">
             <a href="https://github.com/yourgithub" target="_blank" class="social-icon">
               <i class="fab fa-github"></i>

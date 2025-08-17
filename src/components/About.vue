@@ -81,7 +81,12 @@ export default {
   data() {
     return {
       yearsOfExperience: new Date().getFullYear() - 2024, // Started in 2020
-      displayedStats: {},
+      displayedStats: {
+        projects: 0,
+        clients: 0,
+        experience: 0,
+        technologies: 0
+      },
       highlights: [
         {
           id: 1,
@@ -109,7 +114,7 @@ export default {
         }
       ],
       stats: [
-        { id: 'projects', number: 20, suffix: '+', label: 'Projects Completed' },
+        { id: 'projects', number: 7, suffix: '+', label: 'Projects Completed' },
         { id: 'clients', number: 5, suffix: '+', label: 'Happy Clients' },
         { id: 'experience', number: 1, suffix: '+', label: 'Years Experience' },
         { id: 'technologies', number: 15, suffix: '+', label: 'Technologies' }
@@ -157,11 +162,11 @@ export default {
           : -1 + (4 - 2 * progress) * progress
         
         const current = Math.floor(start + (range * easedProgress))
-        this.$set(this.displayedStats, statId, current)
+        this.displayedStats[statId] = current
         
         if (progress >= 1) {
           clearInterval(timer)
-          this.$set(this.displayedStats, statId, end)
+          this.displayedStats[statId] = end
         }
       }, 16) // ~60fps
     }
